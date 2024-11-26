@@ -27,7 +27,7 @@ Connect the RGB LED blue leg on 30 column of the breadboard (Right Side)
 Connect the RGB LED green leg on 33 cloumn of the breadboard (Right Side)
 
 ***Note:*** <br>
-Each color needs a different balance of vol.
+Each color needs a different balance of vol. <br>
 Red needs 100 ohn <br>
 Green needs 200 ohn <br>
 Blue needs 300 ohn <br>
