@@ -76,3 +76,27 @@ Connect the last male/female jumper to the GPIO 22 pin
 
 **Step 18:** <br>
 Connect the GPIO 22 jumper to 25 column of the breadboard (Left Side)
+
+3 ) Set up the Code:
+
+You need to import the LED module:
+
+from gpiozero import LED
+
+	
+Create a variable named "red" and attach "LED(22)" to it:
+
+red = LED(22)
+
+
+Create a variable named "green" and attach "LED(17)" to it:
+
+green = LED(17)
+
+Create a variable named "blue" and attach "LED(27)" to it:
+
+blue = LED(27)
+
+To turn on/off an specified color, we can type the name of the variable with either ".on()" method or ".off()" method
+
+blue.on()  # Example: I typed the name of the variable with one of the gpiozero methods
