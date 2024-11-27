@@ -80,10 +80,10 @@ Connect the GPIO 22 jumper to 25 column of the breadboard (Left Side)
 3 ) Set up the Code:
 
 You need to import the LED module:
-
+<pre>
 from gpiozero import LED
+</pre>
 
-	
 Create a variable named "red" and attach "LED(22)" to it:
 
 red = LED(22)
