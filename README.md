@@ -85,18 +85,21 @@ from gpiozero import LED
 </pre>
 
 Create a variable named "red" and attach "LED(22)" to it:
-
+<pre>
 red = LED(22)
-
+</pre>
 
 Create a variable named "green" and attach "LED(17)" to it:
-
+<pre>
 green = LED(17)
+</pre>
 
 Create a variable named "blue" and attach "LED(27)" to it:
-
+<pre>
 blue = LED(27)
+</pre>
 
 To turn on/off an specified color, we can type the name of the variable with either ".on()" method or ".off()" method
-
+<pre>
 blue.on()  # Example: I typed the name of the variable with one of the gpiozero methods
+</pre>
