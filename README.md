@@ -103,3 +103,7 @@ To turn on/off an specified color, we can type the name of the variable with eit
 <pre>
 blue.on()  # Example: I typed the name of the variable with one of the gpiozero methods
 </pre>
+
+4 ) My Programs Examples:
+
+A. control_rgb.py
